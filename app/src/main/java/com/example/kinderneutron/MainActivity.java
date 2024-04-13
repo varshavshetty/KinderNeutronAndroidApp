@@ -1,5 +1,4 @@
 package com.example.kinderneutron;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -57,10 +56,12 @@ public class MainActivity extends AppCompatActivity {
         String savedPassword = sharedPreferences.getString("password", "");
 
         if (enteredUsername.equals(savedUsername) && enteredPassword.equals(savedPassword)) {
+            // Login successful, navigate to landingpage1
             Toast.makeText(MainActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(MainActivity.this, landingpage1.class);
+            startActivity(intent);
         } else {
             Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
         }
     }
 }
-
