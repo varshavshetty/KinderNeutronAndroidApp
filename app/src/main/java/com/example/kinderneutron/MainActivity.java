@@ -9,7 +9,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
 
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 public class MainActivity extends AppCompatActivity {
 
     EditText username;
@@ -52,16 +60,51 @@ public class MainActivity extends AppCompatActivity {
         String enteredPassword = password.getText().toString();
 
         // Retrieve saved credentials
-        String savedUsername = sharedPreferences.getString("username", "");
-        String savedPassword = sharedPreferences.getString("password", "");
+//        String savedUsername = sharedPreferences.getString("username", "");
+//        String savedPassword = sharedPreferences.getString("password", "");
+        new Thread(() -> {
+            OkHttpClient client = new OkHttpClient();
 
-        if (enteredUsername.equals(savedUsername) && enteredPassword.equals(savedPassword)) {
-            // Login successful, navigate to landingpage1
-            Toast.makeText(MainActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(MainActivity.this, landingpage1.class);
-            startActivity(intent);
-        } else {
-            Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
-        }
+            MediaType MEDIA_TYPE = MediaType.parse("application/json");
+            String url = "http://192.168.29.173:8001/userapi/";
+
+
+            String json = "{"
+                    + "\"type\": \"" + "login" + "\","
+                    + "\"username\": \"" + enteredUsername + "\","
+                    + "\"password\": \"" + enteredPassword + "\""
+                    + "}";
+            RequestBody body = RequestBody.create(json, MEDIA_TYPE);
+
+            Request request = new Request.Builder()
+                    .url(url)
+                    .post(body)
+                    .build();
+
+            try {
+                Response response = client.newCall(request).execute();
+                Log.d("Response", "Response Code: " + response.code() + " Response Body: " + response.body().string());
+                runOnUiThread(() -> {
+                    if (response.code() == 200) {
+                        Toast.makeText(MainActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(MainActivity.this, landingpage1.class);
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }).start();
+//        if (enteredUsername.equals("Suhas") && enteredPassword.equals("123456")) {
+//            // Login successful, navigate to landingpage1
+//            Toast.makeText(MainActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
+//            Intent intent = new Intent(MainActivity.this, landingpage1.class);
+//            startActivity(intent);
+//        } else {
+//            Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
+//        }
     }
 }
