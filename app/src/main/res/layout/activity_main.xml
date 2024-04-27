@@ -70,7 +70,7 @@
                 android:paddingBottom="8dp"
                 android:textSize="18sp"
                 android:textColor="@color/white"
-                android:textColorHint="@color/white" /> <!-- You can also set hint color to white -->
+                android:textColorHint="@color/grey" /> <!-- You can also set hint color to white -->
 
             <EditText
                 android:id="@+id/password"
@@ -87,7 +87,7 @@
                 android:padding="8dp"
                 android:textColor="@color/white"
                 android:textSize="18sp"
-                android:textColorHint="@color/white" /> <!-- Setting hint color to white -->
+                android:textColorHint="@color/grey" /> <!-- Setting hint color to white -->
 
 
             <Button
@@ -124,8 +124,10 @@
                 android:textSize="18sp"
                 android:layout_marginTop="20dp"
                 android:textColor="@color/white"
-                android:backgroundTint="@color/red"
-                android:onClick="onRegisterButtonClicked"/>
+                android:backgroundTint="@color/red"/>
+<!--                android:onClick="onRegisterButtonClicked"-->
+<!--                tools:ignore="OnClick" -->
+
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

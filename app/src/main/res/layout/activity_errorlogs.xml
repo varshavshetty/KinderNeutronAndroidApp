@@ -55,15 +55,15 @@
             <!-- Table Header -->
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/table_row_border"
                 android:backgroundTint="@color/black">
 
                 <TextView
                     android:id="@+id/textview1"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.7"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:background="@drawable/table_column_border"
                     android:fontFamily="serif"
                     android:padding="8dp"
@@ -73,8 +73,8 @@
                 <TextView
                     android:id="@+id/textview2"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.6"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.9"
                     android:background="@drawable/table_column_border"
                     android:fontFamily="serif"
                     android:padding="8dp"
@@ -84,8 +84,8 @@
                 <TextView
                     android:id="@+id/textview3"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.3"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
                     android:background="@drawable/table_column_border"
                     android:fontFamily="serif"
                     android:padding="8dp"
@@ -95,8 +95,8 @@
                 <TextView
                     android:id="@+id/textview4"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.2"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
                     android:background="@drawable/table_column_border"
                     android:fontFamily="serif"
                     android:padding="8dp"
@@ -106,8 +106,8 @@
                 <TextView
                     android:id="@+id/textview5"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.5"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.7"
                     android:background="@drawable/table_column_border"
                     android:fontFamily="serif"
                     android:padding="8dp"
@@ -117,8 +117,8 @@
                 <TextView
                     android:id="@+id/textview6"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:background="@drawable/table_column_border"
                     android:fontFamily="serif"
                     android:padding="8dp"
@@ -130,15 +130,15 @@
             <!-- Dummy Data for Row 1 -->
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/table_row_border"
                 android:backgroundTint="@color/black">
 
                 <TextView
                     android:id="@+id/textview7"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.7"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:background="@drawable/table_column_border"
                     android:fontFamily="serif"
                     android:padding="8dp"
@@ -147,8 +147,8 @@
                 <TextView
                     android:id="@+id/textview8"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.6"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.9"
                     android:background="@drawable/table_column_border"
                     android:fontFamily="serif"
                     android:padding="8dp"
@@ -157,8 +157,8 @@
                 <TextView
                     android:id="@+id/textview9"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.3"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
                     android:background="@drawable/table_column_border"
                     android:fontFamily="serif"
                     android:padding="8dp"
@@ -167,8 +167,8 @@
                 <TextView
                     android:id="@+id/textview10"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.2"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
                     android:textColor="@color/yellow" />
@@ -176,8 +176,8 @@
                 <TextView
                     android:id="@+id/textview11"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.5"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.7"
                     android:background="@drawable/table_column_border"
                     android:fontFamily="serif"
                     android:padding="8dp"
@@ -186,8 +186,8 @@
                 <TextView
                     android:id="@+id/textview12"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:background="@drawable/table_column_border"
                     android:fontFamily="serif"
                     android:padding="8dp"
@@ -197,49 +197,34 @@
             <!-- Dummy Data for Row 2 -->
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/table_row_border"
                 android:backgroundTint="@color/black">
 
                 <TextView
+                    android:id="@+id/textview13"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.7"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
                     android:fontFamily="serif"
                     android:textColor="@color/yellow"/>
 
                 <TextView
+                    android:id="@+id/textview14"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.6"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.9"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
                     android:textColor="@color/yellow" />
 
                 <TextView
+                    android:id="@+id/textview15"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.3"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.2"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="2.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
@@ -247,9 +232,30 @@
                     android:textColor="@color/yellow"/>
 
                 <TextView
+                    android:id="@+id/textview16"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/textview17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.7"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/textview18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -259,49 +265,34 @@
             <!-- Dummy Data for Row 3 -->
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/table_row_border"
                 android:backgroundTint="@color/black">
 
                 <TextView
+                    android:id="@+id/textview19"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.7"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
                     android:textColor="@color/yellow"/>
 
                 <TextView
+                    android:id="@+id/textview20"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.6"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.9"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
                     android:textColor="@color/yellow"/>
 
                 <TextView
+                    android:id="@+id/textview21"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.3"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.2"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="2.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
@@ -309,9 +300,30 @@
                     android:textColor="@color/yellow"/>
 
                 <TextView
+                    android:id="@+id/textview22"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/textview23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.7"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/textview24"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -321,49 +333,34 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/table_row_border"
                 android:backgroundTint="@color/black">
 
                 <TextView
+                    android:id="@+id/textview25"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.7"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
                     android:textColor="@color/yellow"/>
 
                 <TextView
+                    android:id="@+id/textview26"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.6"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.9"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
                     android:textColor="@color/yellow"/>
 
                 <TextView
+                    android:id="@+id/textview27"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.3"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.2"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="2.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
@@ -371,9 +368,30 @@
                     android:textColor="@color/yellow"/>
 
                 <TextView
+                    android:id="@+id/textview28"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/textview29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.7"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/textview30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -382,14 +400,14 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/table_row_border"
                 android:backgroundTint="@color/black">
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.7"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -397,8 +415,8 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.6"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.9"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -406,25 +424,7 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.3"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.2"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="2.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
@@ -433,8 +433,26 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.7"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -443,14 +461,14 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/table_row_border"
                 android:backgroundTint="@color/black">
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.7"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -458,8 +476,8 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.6"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.9"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -467,25 +485,7 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.3"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.2"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="2.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
@@ -494,8 +494,26 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.7"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -504,14 +522,14 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/table_row_border"
                 android:backgroundTint="@color/black">
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.7"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -519,8 +537,8 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.6"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.9"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -528,25 +546,7 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.3"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.2"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="2.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
@@ -555,8 +555,26 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.7"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -565,14 +583,14 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/table_row_border"
                 android:backgroundTint="@color/black">
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.7"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -580,8 +598,8 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.6"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.9"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -589,25 +607,7 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.3"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.2"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="2.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
@@ -616,8 +616,26 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.7"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -626,14 +644,14 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/table_row_border"
                 android:backgroundTint="@color/black">
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.7"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -641,8 +659,8 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.6"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.9"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -650,25 +668,7 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.3"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.2"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="2.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
@@ -677,8 +677,26 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.7"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -687,14 +705,14 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/table_row_border"
                 android:backgroundTint="@color/black">
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.7"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -702,8 +720,8 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.6"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.9"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"
@@ -711,25 +729,7 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.3"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.2"
-                    android:fontFamily="serif"
-                    android:background="@drawable/table_column_border"
-                    android:padding="8dp"
-                    android:textColor="@color/yellow"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="2.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
@@ -738,8 +738,26 @@
 
                 <TextView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.4"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.7"
+                    android:fontFamily="serif"
+                    android:background="@drawable/table_column_border"
+                    android:padding="8dp"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
                     android:fontFamily="serif"
                     android:background="@drawable/table_column_border"
                     android:padding="8dp"

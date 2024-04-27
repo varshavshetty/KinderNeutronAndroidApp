@@ -68,15 +68,16 @@ public class landingpage1 extends AppCompatActivity {
         } else if (apiLightStatus.equals("light OFF")) {
             TextViewLight.setText("Light is OFF");
         }
-        Button next = (Button) findViewById(R.id.NextButton);
+        Button next = findViewById(R.id.NextButton);
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Navigate to Errorlogs activity
+                // Navigate to Errorlogs activity using explicit package name
                 Intent intent = new Intent(landingpage1.this, com.example.kinderneutron.Errorlogs.class);
                 startActivity(intent);
             }
         });
+
     }
     }
 

@@ -72,7 +72,7 @@
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp"
                 android:textSize="18sp"
-                android:textColor="@color/white"
+                android:textColor="@color/grey"
                 android:textColorHint="@color/white" />
 
             <EditText
@@ -89,7 +89,7 @@
                 android:textSize="18sp"
                 android:padding="8dp"
                 android:inputType="textPassword"
-                android:textColor="@color/white"
+                android:textColor="@color/grey"
                 android:textColorHint="@color/white"
                 android:textColorHighlight="@color/cardview_dark_background"
             />
@@ -109,7 +109,7 @@
                 android:padding="8dp"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/white"
-                android:textColorHint="@color/white"
+                android:textColorHint="@color/grey"
                 android:textColorHighlight="@color/cardview_dark_background"
             />
 
@@ -127,7 +127,7 @@
                 android:textSize="18sp"
                 android:fontFamily="serif"
                 android:padding="8dp"
-                android:textColorHint="@color/white"
+                android:textColorHint="@color/grey"
                 android:textColorHighlight="@color/cardview_dark_background"
             />
 
@@ -141,8 +141,8 @@
                 android:textStyle="bold"
                 android:textSize="18sp"
                 android:layout_marginTop="20dp"
-                android:backgroundTint="@color/black"
-                android:onClick="onLoginButtonClicked"/>
+                android:backgroundTint="@color/black"/>
+<!--                 android:onClick="onLoginButtonClicked"-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -151,8 +151,8 @@
                 android:fontFamily="serif"
                 android:textSize="17.3sp"
                 android:layout_marginTop="18dp"
-                android:textColor="@color/red"
-                android:onClick="onLoginButtonClicked"/>
+                android:textColor="@color/red"/>
+<!--                android:onClick="onLoginButtonClicked"/>-->
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
